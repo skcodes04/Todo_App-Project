@@ -45,7 +45,7 @@ input::placeholder{
     color: #555;
     letter-spacing: 1px;
 }
-i{
+.fa-solid{
     padding: 10px;
     color: #555;
     font-size: 1.2em;
@@ -72,13 +72,14 @@ li{
     padding: 5px;
 }
 @media (max-width: 600px){
-    i{
+    .fa-solid {
     font-size: 1em;
 }
-    ul{
+    ul {
     font-size:1em;
 }
 }
+
 
 
 
