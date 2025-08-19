@@ -37,6 +37,7 @@ input{
     font-size: 1rem;
     font-weight: 600;
     flex: 1;
+    width: 100%;
 }
 input::placeholder{
     font-size: 1rem;
@@ -71,3 +72,4 @@ li{
     padding: 5px;
 
 }
+
