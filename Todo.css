@@ -54,7 +54,7 @@ i{
 
 ul{
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 400;
     text-align: left;
     padding: 10px;
@@ -72,8 +72,13 @@ li{
     padding: 5px;
 }
 @media (max-width: 600px){
-i{
-font-size: 1em;
+    i{
+    font-size: 1em;
 }
+    ul{
+    font-size:1em;
+}
+}
+
 
 
