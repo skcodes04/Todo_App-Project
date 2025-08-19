@@ -48,7 +48,7 @@ input::placeholder{
 i{
     padding: 10px;
     color: #555;
-    font-size: 1.3rem;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
@@ -70,6 +70,10 @@ li{
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-
 }
+@media (max-width: 600px){
+i{
+font-size: 1em;
+}
+
 
