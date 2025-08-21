@@ -5,6 +5,10 @@ const new_list = document.querySelector("#new-list");
 
 // add li dynamically
 function addItem(){
+    if(task_value.value === ""){
+        alert("please add todos");
+        return;
+    }
     const addNewList = document.createElement("li");
     new_list.appendChild(addNewList);
     addNewList.textContent = `${task_value.value}`;
@@ -26,4 +30,5 @@ function deleteTask (addNewList){
 }
 
 // add event listener
+
 add_task.addEventListener("click", addItem);
