@@ -45,10 +45,8 @@ input::placeholder{
     color: #555;
     letter-spacing: 1px;
 }
-.fa-solid{
+.plus{
     padding: 10px;
-    color: #555;
-    font-size: 1.2em;
     cursor: pointer;
 }
 
@@ -72,13 +70,15 @@ li{
     padding: 5px;
 }
 @media (max-width: 600px){
-    .fa-solid {
-    font-size: 1em;
-}
     ul {
     font-size:1em;
 }
+   li{
+    outline: 2px groove #ccc;
+    outline-offset: 3px;
 }
+   }
+
 
 
 
